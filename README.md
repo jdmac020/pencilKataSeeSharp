@@ -4,9 +4,9 @@ This is a simple "class library/test project" solution to allow anyone to immedi
 
 ## Stack Details
 
-Both projects are .NET Core class libraries targeting .NET 5.
+Both projects are .NET Core class libraries targeting .NET 6.
 
-`Desk.Tests` has the NuGet packages for xUnit and Shouldly installed.
+`Desk.Tests` has the NuGet packages for xUnit and Shouldly defined.
 
 ## Structure
 
