@@ -10,7 +10,7 @@ namespace Desk
     {
         public void Write(string note, Paper paper)
         {
-            paper.Content = note;
+            paper.Content += note;
         }
     }
 }

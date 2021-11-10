@@ -20,5 +20,18 @@ namespace Desk.Tests
 
             paper.Content.ShouldBe("Test String");
         }
+
+        [Fact]
+        public void AddNewStringsToExisting()
+        {
+            var paper = new Paper();
+            var pencil = new Pencil();
+
+            pencil.Write("Welcome to", paper);
+            paper.Content.ShouldBe("Welcome to");
+
+            pencil.Write(" the jungle!", paper);
+            paper.Content.ShouldBe("Welcome to the jungle!");
+        }
     }
 }
